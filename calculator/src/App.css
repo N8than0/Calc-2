@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Thing-Grid {
+  display:grid;
+  text-align: center;
+
+  
+}
+
+
+.but {
+  display: inline-block;
+  background-color: #cfb230; 
+  color: white;
+  text-align: center;
+
+  font-size: 20px;
+  border-style:double;
+  border-radius: 30%;
+  width:10ex;
+  height:10ex;
+  line-height: 4px;
+  font-style: oblique;
+  font-weight:bolder;
+  font-variant-numeric: lining-nums;
+  text-decoration: solid;
+  text-decoration-thickness: 20px;
+}
+
+.but-2 {
+  display: inline-block;
+  background-color: #161511; 
+  color: white;
+  text-align: center;
+
+  font-size: 20px;
+  border-style:double;
+  border-radius: 30%;
+  width:10ex;
+  height:10ex;
+  line-height: 4px;
+  font-style: oblique;
+  font-weight:bolder;
+  font-variant-numeric: lining-nums;
+}
+
+.txtbx {
+  background-color: #282c34;
+  font-size: 40px;
+  color:white;
+  text-align:end;
+  width: 20ex;
+  height:4ex;
+  border-style:solid;
+  border-color:black;
+  background-color: rgb(34, 32, 32);
+  font-style: oblique;
+  font-weight:bolder;
+  font-variant-numeric: lining-nums;
+  margin-bottom: 30px;
+  text-underline-position: below;
+  padding-inline-end:5ex;
+  border-radius:20%;
+
+}
+
+.but:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:rgb(77, 78, 13);
+}
+.but-2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background-color:rgb(43, 39, 61);
+}
+
+.outline {
+  padding-top:5ex;
+  padding-bottom: 5ex;
+  padding-left: 5ex;
+  padding-right:5ex;
+  border-radius: 10%;
+  border-color:aliceblue;
+  border-style:ridge;
+  background-color: #252729e0;
+}
